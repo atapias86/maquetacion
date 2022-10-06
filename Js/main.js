@@ -5,6 +5,7 @@ addEventListener("DOMContentLoaded", (e) => {
     let pepsi_1 = document.querySelector("#pepsi_1");
     let pepsi_2 = document.querySelector("#pepsi_2");
     let pepsi_3 = document.querySelector("#pepsi_3");
+    let toggleMenu = document.querySelector('.toggleMenu');
 
     pepsi_1.addEventListener("click", (e) => {
         document.querySelector('.pepsi').src = '../img/pepsi001.png';
@@ -20,5 +21,10 @@ addEventListener("DOMContentLoaded", (e) => {
         document.querySelector('.pepsi').src = '../img/pepsi003.png';
         const sec = document.querySelector('.sec');
         sec.style.background = "#1e1e1e"
+    });
+    toggleMenu.addEventListener("click",(e)=>{
+        const navigation = document.querySelector('.navigation');
+        toggleMenu.classList.toggle('active');
+        navigation.classList.toggle('actives')
     });
 });
