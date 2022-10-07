@@ -8,17 +8,17 @@ addEventListener("DOMContentLoaded", (e) => {
     let toggleMenu = document.querySelector('.toggleMenu');
 
     pepsi_1.addEventListener("click", (e) => {
-        document.querySelector('.pepsi').src = '../img/pepsi001.png';
+        document.querySelector('.pepsi').src = 'img/pepsi001.png';
         const sec = document.querySelector('.sec');
         sec.style.background = "#0062be"
     });
     pepsi_2.addEventListener("click", (e) => {
-        document.querySelector('.pepsi').src = '../img/pepsi002.png';
+        document.querySelector('.pepsi').src = 'img/pepsi002.png';
         const sec = document.querySelector('.sec');
         sec.style.background = "#e60c2c"
     });
     pepsi_3.addEventListener("click", (e) => {
-        document.querySelector('.pepsi').src = '../img/pepsi003.png';
+        document.querySelector('.pepsi').src = 'img/pepsi003.png';
         const sec = document.querySelector('.sec');
         sec.style.background = "#1e1e1e"
     });
